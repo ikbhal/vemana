@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+media/
+static/
+
+# Secret key
+secret_key.txt
+
+# IDE files
+.vscode/
+.idea/
+*.pyc
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Local settings
+local_settings.py
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
