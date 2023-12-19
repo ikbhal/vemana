@@ -1,0 +1,22 @@
+<!-- poems/templates/poems/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vemana Poems</title>
+</head>
+<body>
+    <h1>Vemana Poems</h1>
+    
+    <ul>
+        {% for poem in poems %}
+            <li>
+                <h2>{{ poem.title }}</h2>
+                <p>{{ poem.content }}</p>
+                <p>Author: {{ poem.author }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
